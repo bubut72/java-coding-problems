@@ -21,6 +21,20 @@ public class VowelConsonantCounter {
 //        return new int[]{vowelsCount, consonantsCount};
 //    }
 
+//    The code is a helper method that counts the number of vowels and consonants in a given string.
+//    It does so by converting the string to lowercase and then iterating over its characters.
+//    For each character, the method checks if it is a letter and then determines if it is a vowel or a
+//    consonant based on a set of pre-defined vowels.
+//
+//    The method then uses the mapToInt method to convert the filtered characters into an array of integers,
+//    where each integer represents a vowel or a consonant. The toArray method is used to convert the stream of integers
+//    into an array.
+//
+//    The code then uses two Arrays.stream methods to count the number of vowels and consonants. The filter method is used
+//    to count the number of vowels and the count method is used to get the count as a long value and then convert it to an
+//    int value.
+//
+//    The method returns an array containing the number of vowels and consonants.
     public static int[] countVowelsAndConsonants(String str) {
         int[] counts = str.toLowerCase(Locale.ENGLISH)
                 .chars()

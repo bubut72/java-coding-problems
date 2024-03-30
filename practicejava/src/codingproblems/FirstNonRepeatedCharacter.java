@@ -14,6 +14,9 @@ public class FirstNonRepeatedCharacter {
             System.out.println("No non-repeated character found.");
         }
     }
+    //finds the first non-repeated character in a given string by counting the occurrences of each character
+    // and filtering the entries with a count of 1. The code uses a LinkedHashMap to preserve the order
+    // of the characters and a stream to filter and map the keys.
 
     public static Optional<Character> findFirstNonRepeatedCharacter(String str) {
         Map<Character, Integer> charCounts = new LinkedHashMap<>();

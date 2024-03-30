@@ -12,6 +12,7 @@ public class DigitChecker {
     }
 
     public static boolean checkIfContainsOnlyDigits(String str) {
+
         return str.chars().allMatch(Character::isDigit);
     }
 }

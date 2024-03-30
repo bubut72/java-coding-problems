@@ -16,6 +16,17 @@ public class DuplicateCharacterCounter {
         });
     }
 
+//    It uses the chars() method to convert the string into a stream of characters, and then maps each character
+//    to an object of type Character using the mapToObj() method.
+//
+//    The characters are then grouped by their identity (i.e., by character) using the groupingBy() method,
+//    and the count of each group is calculated using the counting() method. The Collectors class provides these methods
+//    as a way to simplify the process of working with streams.
+//
+//    In this case, the Function object passed to groupingBy() is a function that simply returns
+//    its input (i.e., the character), and the counting() method simply returns the count of the elements
+//    in the stream.
+
     public static Map<Character, Long> countDuplicateCharacters(String str) {
         return str.chars()
                 .mapToObj(c -> (char) c)
