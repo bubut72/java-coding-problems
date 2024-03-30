@@ -1,4 +1,4 @@
-package codingproblems;
+package codingproblems.string;
 
 import java.util.LinkedHashSet;
 import java.util.stream.Collectors;

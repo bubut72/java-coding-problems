@@ -1,4 +1,4 @@
-package codingproblems;
+package codingproblems.string;
 
 public class PalindromeChecker {
     public static void main(String[] args) {

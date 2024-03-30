@@ -1,4 +1,4 @@
-package codingproblems;
+package codingproblems.string;
 
 public class DigitChecker {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package codingproblems;
+package codingproblems.string;
 
 public class CharacterRemover {
     public static void main(String[] args) {
