@@ -1,6 +1,6 @@
 package codingproblems.object;
 
-public class BuilderDemo {
+public class BookDemo {
     public static void main(String[] args) {
         Book book = new Book.Builder("The Great Gatsby", "F. Scott Fitzgerald")
                 .pages(180)
